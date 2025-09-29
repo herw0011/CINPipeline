@@ -4,6 +4,6 @@ jobs:
   Explore-Github-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Good job', you have aura 🥶"
+      - run: ls
       - uses: actions/checkout@v3
       - run: npm ci
